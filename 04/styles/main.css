@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 18px
+
+}
+img{
+    padding: 20px;
+    width: 95%;
+    height: auto;
+}
+h2 {
+    font-family: serif;
+    text-align: center;
+    margin-bottom: 32px;
+}
+header {
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid black;
+}
+.navbar {
+    /*
+    display: flex
+    flex-direction: column;
+    */
+    display: none;
+}
+.container {
+    width: 100%;
+}
+.hero figure{
+    width: 100;
+}
+.products {
+    font-size: 40px;
+}
+.list {
+    text-align: center;
+}
+.aventuras {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    padding-left: 40px;
+    margin: 20px;
+    width: 300px;   
+}
+.online {
+    width: 316px;
+}
+.online2{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    padding-left: 40px;
+    margin: 20px;
+    margin-left: 60px;
+    width: 300px; 
+}
